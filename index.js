@@ -3,6 +3,7 @@ const { Component } = React;
 const { ViewPropTypes } = ReactNative = require('react-native');
 const createReactClass = require('create-react-class');
 const PropTypes = require('prop-types');
+import ViewPagerAndroid from 'react-native-community/viewpager';
 const {
   Dimensions,
   View,
@@ -10,7 +11,6 @@ const {
   ScrollView,
   Platform,
   StyleSheet,
-  ViewPagerAndroid,
   InteractionManager,
 } = ReactNative;
 const TimerMixin = require('react-timer-mixin');

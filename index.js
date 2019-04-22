@@ -3,7 +3,7 @@ const { Component } = React;
 const { ViewPropTypes } = ReactNative = require('react-native');
 const createReactClass = require('create-react-class');
 const PropTypes = require('prop-types');
-import ViewPagerAndroid from 'react-native-community/viewpager';
+import ViewPagerAndroid from '@react-native-community/viewpager';
 const {
   Dimensions,
   View,
